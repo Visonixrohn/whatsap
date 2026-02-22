@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    }
+  ],
+  "env": {
+    "WHATSAPP_TOKEN": "@whatsapp-token",
+    "WHATSAPP_PHONE_NUMBER_ID": "@whatsapp-phone-number-id"
+  }
+}

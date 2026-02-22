@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-api-vercel",
+  "version": "1.0.0",
+  "description": "Backend para enviar mensajes de WhatsApp usando la API de Meta",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "whatsapp",
+    "api",
+    "vercel",
+    "serverless"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}
